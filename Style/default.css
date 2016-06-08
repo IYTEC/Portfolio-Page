@@ -1,0 +1,217 @@
+body{
+    overflow-x: hidden;
+}
+.navigation  a{
+    color: #000;
+}
+.navigation{
+    background-color: #333;
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    width: 31%;
+    padding-bottom: 7%;
+}
+
+.portfolio_image{
+    padding: 7% 0 3% 0;
+    width: 20%;
+    -webkit-border-radius: 180% 180% 190% 190%;/*Safari, Chrome*/
+    -moz-border-radius: 200% 200% 155% 157%;/*Firefox*/
+    border-radius: 180% 180% 160% 160%;
+}
+.portfolio_name, .portfolio_description{
+    font-family: Roboto;
+    padding-bottom: 2%;
+    color: #fff;
+}
+.portfolio_name{
+    font-size: 16px;
+    font-weight: 300;
+}
+.portfolio_description{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.work, .about, .contact{
+    padding: 5% 0 0 10%;
+}
+
+#work_container, #about_container, #contact_container{
+    margin-bottom: 1%;
+    
+}
+.work_image, .about_image, .contact_image{
+    width: 15%;
+    padding-right: 5%;
+}
+.work_text{
+    padding-bottom:  0%;
+}
+.work_content, .about_content, .contact_content{
+    margin-left: 15%;
+}
+.webdesign, .branding, .photograph, .mobiledesign{
+   
+}
+.experience, .client, .blog{
+   
+}
+.timeline{
+
+}
+
+.box{
+    padding-top: 6%;   
+}
+.title{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+.date{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+.description{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 2%;
+}
+.image{
+    max-width: 100%;
+    max-height: inherit;
+}
+.image_cont{
+    height: 300px;
+}
+.box{
+    margin-bottom: 2%;
+}
+.web_design{
+    height: 300px;
+    margin-bottom: 10%;
+}
+.all_image{
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover; 
+}
+.calculator_image{
+    background-image: url("../Image/portfolio_images/Calculator.png");
+}
+.chinua_image{
+    background-image: url("../Image/portfolio_images/tribute-page.png");
+}
+.pomodoro_clock{
+    background-image: url("../Image/portfolio_images/pomodoro-clock-.png");
+}
+.simon_image{
+    background-image: url("../Image/portfolio_images/Simons-Game.png");
+}
+.tic_tac_image{
+    background-image: url("../Image/portfolio_images/Tic-Tac-Toe.png");
+}
+.web_design_image{
+    background-image: url("../Image/portfolio_images/blog_styleUI%20copy.jpg");
+    height: 400px;
+}
+.web-design-text, .photography, .mobile_design, .newest, .skill_set, .cli, .addr{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300px;
+    padding-left: 5%;
+    margin: 3% 0 6% 0;
+}
+.mobile_image{
+    background-image: url("../Image/portfolio_images/intstagram%20style%20blog%20copy.jpg");
+    height: 400px;
+}
+.header_image{
+    background-image: url("../Image/BestMe_20160217122520.jpg");
+    height: 100px;
+    border-radius: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header_container{
+    margin: 18% 35% 5% 35%;
+}
+#map{
+    height: 400px;
+    width: 95%;
+    background-color: beige;
+    margin-bottom: 5%;
+}
+.face, .linked, .twit, .gplus{
+    padding: 7%;
+    background-color: #EAEAEA;
+    color: #949A9E;
+    border-radius: 200px;
+}
+.face:hover, .linked:hover, .twit:hover, .gplus:hover{
+    padding: 7%;
+    background-color: #464E54;
+    color: #fff;
+    border-radius: 200px;
+}
+.work_icon, .contact_icon, .about_icon{
+    padding-right: 10%;
+}
+
+#navItem{
+    color: #424A51;
+    font-family: Roboto;
+    font-weight: 500;
+    text-decoration: none;
+}
+#navItem:hover{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.notClicked{
+    color: #424A51;
+    font-family: Roboto;
+    font-weight: 500;
+    text-decoration: none;
+}
+.clicked{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+#contact_container{
+    color: #088ECC;
+    font-family: Roboto;
+    font-weight: 500;
+}
+#about_container{
+    color: #27B599;
+    font-family: Roboto;
+    font-weight: 500;
+}
+#work_container{
+    color: #D35136;
+    font-family: Roboto;
+    font-weight: 500;
+}
+#contact_container:hover, #about_container:hover, #work_container:hover{
+    font-weight: 900;
+}
+.email_cont, .phone_cont{
+    margin: 10% 5% 0% 2%;
+}
+.email_icon, .phone_icon{
+    padding-right: 3%;
+}
+#emailandphone{
+    margin-bottom: 10%;
+    font-weight: 500;
+    font-family: Roboto;
+}
